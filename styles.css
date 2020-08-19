@@ -1,0 +1,62 @@
+#title{
+    background-color:#776D8A;
+    text-align: center;
+}
+.container-fluid{
+    padding: 2% 3% 5% 3%;   
+}
+.nav-item{
+    margin: 3%;
+}
+
+.big-heading{
+    text-align: left;
+    line-height: 1.7;
+    font-size: 3.6rem;
+    padding: 3rem 5rem;
+    margin-bottom: 4rem;
+    color: white;
+}
+.nav-link{
+    color: white;
+    
+}
+.title-image{
+    width:80%;
+}
+.register-button{
+    font-size: 2rem;;
+}
+
+/*Items on auction*/
+#item{
+    padding: 8%;
+    
+}
+.item-heading{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.item-auction{
+    border: none;
+}
+
+/*How it works*/
+#Work{
+  padding-bottom: 10rem;
+  padding-top: 10rem;
+    
+}
+.how{
+    border: none;
+}
+.work-small-heading{
+    padding-bottom: 0.1rem;
+    padding-left: 1rem;
+    color: #68b0ab;
+}
+.work-h4{
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+}

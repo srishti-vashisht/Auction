@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Auction</title>
+    <!--Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!--Adding Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">                          
+    <!--Adding styles.css-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Adding font-awesome-->
+    <script src="https://kit.fontawesome.com/762af3f221.js" crossorigin="anonymous"></script>
+    <!--Adding Bootstrap scripts - JavaScript , jQuery ,Popper.js ,JavaScript plugins-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section id ="title">
+        <div class="container-fluid">
+            <!--Nav Bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">Auction</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText" style="background-color: #776D8A;">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color: white;">Buy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color: white;">Sell</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">
+                          Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Sell Items</a>
+                          <a class="dropdown-item" href="#">Buy Items</a>
+                          <a class="dropdown-item" href="#">Submit a Bid</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white;">Contact</a>
+                      </li>
+                </ul>
+                    <span class="navbar-text" href="#" >
+                    Sign In/Register
+                    </span>
+                       
+                  </div>
+              </nav>
+
+              <!-- Title -->
+              <div class = "row">
+                <div class = "col-lg-6">
+                <h1 class="big-heading">The Best Place to Buy and Sell</h1>
+                <button type="button" class="btn btn-success btn-lg register-button">Register</button>
+                </div>
+            
+              <div class = "col-lg-6">
+                <img class = "title-image" src="images/title-image.png" alt="auction-image">
+              </div>
+              </div>
+              
+
+    
+        </div>
+    </section>    <!--End of title section-->
+    
+    <!--Items on auction-->
+    <section id = "item">
+      <div class = "item-heading">
+        <h3>Current <b>Auctions</b></h3>
+      </div>
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card item-auction">
+            <br>
+            <br>
+            <br>
+            <img class="card-img-top" src="images/shoes.png" alt="Card image shoes">
+            <br>
+            <br>
+            <div class="card-body">
+              <h5 class="card-title">Shoes</h5>
+              <p class="card-text">Hurry! Only 1 day left</p>
+              <a href="#" class="btn btn-light">Submit a Bid</a>
+              <p class="card-text"><small class="text-muted">Last updated few mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card item-auction">
+            <img class="card-img-top" src="images/skirt.png" alt="Card image skirt">
+            <div class="card-body">
+              <h5 class="card-title">Denim Skirt</h5>
+              <p class="card-text">Hurry! What you're waiting for?</p>
+              <a href="#" class="btn btn-light">Submit a Bid</a>
+              <p class="card-text"><small class="text-muted">Last updated 20 mins ago</small></p>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-3">
+          <div class="card item-auction">
+            <img class="card-img-top" src="images/glasses.png" alt="Card image glasses">
+            <div class="card-body">
+              <h5 class="card-title">Eye Glass, Eye Protector</h5>
+              <p class="card-text">Hurry! Only 1 day left</p>
+              <a href="#" class="btn btn-light">Submit a Bid</a>
+              <p class="card-text"><small class="text-muted">Last updated 15 mins ago</small></p>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-3">
+          <div class="card item-auction">
+            <img class="card-img-top" src="images/mobile.png" alt="Card image mobile">
+            <div class="card-body">
+              <h5 class="card-title">Shoes</h5>
+              <p class="card-text">Wait is over, get it now!!!!!</p>
+              <a href="#" class="btn btn-light">Submit a Bid</a>
+              <p class="card-text"><small class="text-muted">Last updated 2 mins ago</small></p>
+            </div>
+          </div>
+         </div>
+      </div> <!--End of row 1-->
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card item-auction">
+            <img class="card-img-top" src="images/jacket.png" alt="Card image Jacket">
+            <div class="card-body">
+              <h5 class="card-title">Jacket</h5>
+              <p class="card-text">Hurry! Only 1 day left</p>
+              <a href="#" class="btn btn-light">Submit a Bid</a>
+              <p class="card-text"><small class="text-muted">Last updated 1 hr ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card item-auction">
+            <img class="card-img-top" src="images/desktop.png" alt="Card image desktop">
+            <div class="card-body">
+              <h5 class="card-title">Desktop</h5>
+              <p class="card-text">Hurry! What you're waiting for?</p>
+              <a href="#" class="btn btn-light">Submit a Bid</a>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-3">
+          <div class="card item-auction">
+            <img class="card-img-top" src="images/iWatch.png" alt="Card image iWatch">
+            <div class="card-body">
+              <h5 class="card-title">IWatch</h5>
+              <p class="card-text">Hurry! Only 1 day left</p>
+              <a href="#" class="btn btn-light">Submit a Bid</a>
+              <p class="card-text"><small class="text-muted">Last updated 2 hrs ago</small></p>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-3">
+          <div class="card item-auction">
+            <img class="card-img-top" src="images/dining_table.png" alt="Card image dining_table">
+            <div class="card-body">
+              <h5 class="card-title">Dining Table</h5>
+              <p class="card-text">Wait is over, get it now!!!!!</p>
+              <a href="#" class="btn btn-light">Submit a Bid</a>
+              <p class="card-text"><small class="text-muted">Last updated 13 mins ago</small></p>
+            </div>
+          </div>
+         </div>
+         
+      </div><!--End of row-2-->
+    </div>   <!--End of container-->
+    </section>  <!--End of item Section-->
+
+    <!--How it Works?-->
+
+    <section id="Work">
+      <div class="container">
+        <h6 class="work-small-heading">How?</h6>
+        <h4 class = "work-h4">How <b>It Works</b></h4>
+      <div class="card-deck">
+        <div class="row">
+          <div class = "col-lg-3">
+        <div class="card how">
+          <img class="card-img-top" src="images/register.png" alt="Card image register">
+          <div class="card-body">
+            <h5 class="card-title">Register</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div> <!--col-1-->
+      <div class = "col-lg-3">
+        <div class="card how">
+          <img class="card-img-top" src="images/money.png" alt="Card image money">
+          <div class="card-body">
+            <h5 class="card-title">Buy or Bid</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>  <!--col-2-->
+      <div class ="col-lg-3">
+        <div class="card how">
+          <img class="card-img-top" src="images/submit_bid.png" alt="Card image bid">
+          <div class="card-body">
+            <h5 class="card-title">Submit a Bid</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>  <!--col-3-->
+      <div class ="col-lg-3">
+        <div class="card how">
+          <img class="card-img-top" src="images/win_bid.png" alt="Card image bidWon">
+          <div class="card-body">
+            <h5 class="card-title">Win</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+        </div>  <!--col-4-->
+
+        </div>  <!--End of row-1-->
+      </div>  <!--end of card-deck-->
+      </div>  <!--end of container-->
+    </div>  <!--section end-->
+
+    <section id = "About">
+      <div>
+        
+      </div>
+    </section>
+</body>
+</html>
+
+
+
+
