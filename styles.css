@@ -31,7 +31,6 @@
 /*Items on auction*/
 #item{
     padding: 8%;
-    
 }
 .item-heading{
     text-align: center;
@@ -59,4 +58,13 @@
 .work-h4{
     padding-bottom: 4rem;
     padding-left: 1rem;
+}
+
+
+/*About*/
+
+.about-img{
+    width:40rem;
+    height: 30rem;
+    padding: 5rem;
 }
